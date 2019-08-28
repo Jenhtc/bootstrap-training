@@ -1,11 +1,8 @@
-* {
+/* * {
   border: 1px solid black;
   padding: 0;
   margin: 0;
 }
-/* .row {
-  height: 100px;
-} */
 .container-fluid {
   background-color: rgb(233, 68, 131);
 }
@@ -17,4 +14,20 @@
 }
 .col {
   text-align: center;
+} */
+
+/*Exo2
+
+* {
+  /* border: 1px solid black; */
+  padding: 0;
+  margin: 0;
+}
+.container-fluid {
+  text-align: center;
+}
+[class^="col"] {
+  background-color: rgb(226, 43, 186);
+  border: 1px solid black;
+  border-radius: 5px;
 }
